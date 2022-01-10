@@ -1,7 +1,5 @@
-import { assert } from "@stefanprobst/assert";
-
 export function range(start: number, end: number): Array<number> {
-  assert(end >= start);
+  if (start > end) return [];
 
   return Array(end - start + 1)
     .fill(null)

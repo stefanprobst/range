@@ -1,6 +1,6 @@
 {
   "name": "@stefanprobst/range",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "./dist/cjs/index.js",
   "license": "MIT",
   "type": "module",
@@ -16,9 +16,6 @@
     "build": "tsc -p tsconfig.json",
     "build:cjs": "tsc -p tsconfig.json --module commonjs --outDir dist/cjs",
     "prepublishOnly": "yarn run build && yarn run build:cjs"
-  },
-  "dependencies": {
-    "@stefanprobst/assert": "^1.0.1"
   },
   "devDependencies": {
     "typescript": "^4.4.4"

@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@stefanprobst/assert@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@stefanprobst/assert/-/assert-1.0.1.tgz#a1bc1c87f2e33ae473e68870a8f3c47f99d8663b"
-  integrity sha512-u97GW/ITJe3ZgensZMHs8J723hy/PbogvSb971+FKM+LdveaKQ2O9JGebonDsdIP2dcRXzBhlod+JJhyNfczsg==
-
 typescript@^4.4.4:
   version "4.4.4"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"

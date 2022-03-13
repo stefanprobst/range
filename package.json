@@ -1,6 +1,6 @@
 {
   "name": "@stefanprobst/range",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./dist/cjs/index.js",
   "license": "MIT",
   "type": "module",
@@ -14,10 +14,10 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "build:cjs": "tsc -p tsconfig.json --module commonjs --outDir dist/cjs",
+    "build:cjs": "tsc -p tsconfig.json --module commonjs --outDir dist/cjs && sh scripts/fix-package-type.sh",
     "prepublishOnly": "yarn run build && yarn run build:cjs"
   },
   "devDependencies": {
-    "typescript": "^4.4.4"
+    "typescript": "^4.6.2"
   }
 }
